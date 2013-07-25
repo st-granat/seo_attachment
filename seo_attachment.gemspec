@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'seo_attachment/version'
 
 Gem::Specification.new do |gem|
+  gem.license       = "MIT"
   gem.name          = "seo_attachment"
   gem.version       = SeoAttachment::VERSION
   gem.authors       = ["Andrey"]
