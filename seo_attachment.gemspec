@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["railscode@gmail.com"]
   gem.description   = "Seo-оптимизированные аттачменты (Paperclip)"
   gem.summary       = "Кого?"
-  gem.homepage      = "https://github.com/vav/seo_attachment"
+  gem.homepage      = "https://github.com/st-granat/seo_attachment"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
